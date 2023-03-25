@@ -1,5 +1,8 @@
 
 @media only screen and (min-width: 320px) and (max-width: 767px) {
+
+    
+
     header .navbar-nav .nav-item {
         /* text-align: right; */
         width: max-content;
@@ -72,3 +75,54 @@ header .navbar-brand img {
     }
 }
 
+
+
+
+/* ---- */
+@media only screen and (min-width: 320px) and (max-width: 576px) {
+
+    .industry_specialization_section ul li {
+        width: 40%;
+    }
+
+    footer .all_links {
+        grid-template-columns: repeat(1, 1fr);
+    text-align: left;
+    }
+
+    .contact_section {
+        padding: 20px 0;
+    }
+    .contact_section h3 {
+        text-align: center;
+        font-size: 29px;
+        font-weight: 700;
+    }
+    .paragraph_hdng {
+        max-width: 85%;
+    }
+    .paragraph_hdng h3 {
+        font-size: 22px;
+    }
+    .paragraph_hdng p {
+        text-align: justify;
+        font-size: 20px;
+        line-height: 32px;
+    }
+
+    .promotion_section .content_section {
+        padding: 40px 20px !important;
+    }
+
+}
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+    footer .all_links {
+        text-align: left;
+        grid-template-columns: repeat(2, 1fr);}
+}
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+    footer .all_links {
+        text-align: left;}
+}
+@media only screen and (min-width: 993px) and (max-width: 1200px) {}
+@media only screen and (min-width: 1201px) {}
