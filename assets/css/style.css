@@ -1,0 +1,214 @@
+body {
+    overflow-x: hidden;
+}
+
+
+header ul li a.nav-link {
+    color: black;
+}
+
+header .navbar-brand img {
+    width: 38%;
+}
+
+.navbar-toggler {
+    background: green !important;
+}
+
+
+header {
+    background-color: #0000000f;
+    padding-top: 1rem;
+}
+
+.container.mx_widt {
+    max-width: 1440px;
+}
+
+/* header .navbar-brand img {
+    max-width: 145px;
+} */
+
+header .navbar-nav .nav-item .nav-link {
+    font-family: "Biotif";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 22px;
+    text-transform: capitalize;
+    padding: 6px 18px;
+}
+
+header .navbar-nav .nav-item:last-child {
+    margin-left: auto;
+}
+
+
+header div#navbarSupportedContent {
+    justify-content: flex-end;
+}
+
+
+
+
+.col_in_centre {
+    padding: 40px 0;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.paragraph_hdng h3 {
+    text-align: center;
+    font-size: 2rem;
+
+}
+
+.paragraph_hdng p {
+    font-size: 1rem;
+    text-align: justify;
+    font-size: 26px;
+    line-height: 50px;
+}
+
+
+
+
+.paragraph_hdng {
+    max-width: 50%;
+}
+
+
+.partition_line {
+
+    min-height: 114px;
+    margin: 0;
+}
+
+.partition_line .color_bg {
+
+    background-color: #079fff;
+    min-height: 114px;
+}
+
+
+
+.img_section {
+    background-image: url(/assets/images/4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.img_section img {
+    width: 100%;
+}
+
+.promotion_section .row div {
+    margin: 0;
+    padding: 0;
+}
+
+.promotion_section .row_two {
+
+    flex-direction: row-reverse;
+}
+
+.promotion_section .content_section {
+    padding: 80px !important;
+    text-align: center;
+
+}
+
+.promotion_section .content_section h3 {
+    font-size: 1.125rem;
+    color: #fe414d;
+    margin-bottom: 1rem;
+}
+
+.promotion_section .content_section a {
+    display: inline-block;
+    position: relative;
+    color:#fe414d;
+    text-decoration: none;
+}
+.promotion_section .content_section a::after {
+    content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #fe414d;
+  transform-origin: bottom left;
+  transition: transform 0.5s ease-out;
+}
+
+.promotion_section .content_section a:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+
+photo_in_right {
+    min-height: 114px;
+}
+
+
+.photo_in_right .grey_bg {
+    background-color: #eee;
+}
+
+.photo_in_right .img_col img {
+    width: 100%;
+}
+
+.photo_in_right div {
+    padding: 0;
+    margin: 0;
+}
+
+.col_in_centre.our_works h3 {
+    color: #fe414d;
+}
+.col_in_centre.industry_specialization h3 {
+    color: #fe414d;
+}
+
+
+.industry_specialization_section ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    overflow: hidden;
+    transition: height .5s 0s cubic-bezier(0.32, 0.01, 0, 1);
+}
+.industry_specialization_section ul li{
+    background: #eee;
+    margin: 0.25em 0.25em;
+    padding: 0;
+    flex: none;
+    width: 25%;
+    display: block;
+    text-align: center;
+}
+.industry_specialization_section ul li a{
+    padding: 60px 0.75rem;
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #000;
+    position: relative;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.industry_specialization_section ul li:hover{
+    background: url(/assets/images/bg1.jpg);
+}
